@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jatin's Lesson 7 Challenge Starter</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    
+    
+    <main id="main">
+      <section class="content"> <br><br>
+        <h4 id="intro"></h4> <br>
+        <p id="joke"></p>
+        <p id="quote"></p><br> <p id="author"></p>
+        <p id="riddle"></p><br><p id="riddle_answer"></p>
+        <button class="reveal-btn" onclick="revealAnswers()" hidden>Reveal Riddle Answer</button>
+      </section>
+
+      
+      <section class="sidebar">
+        <h2>Actions</h2>
+        <button onclick="showMeme()">Show a Meme</button>
+        <button onclick="showJoke()">Tell Me a Joke</button>
+        <button onclick="showQuote()">Random Quote</button>
+        <button onclick="showRiddle()">Riddle me</button>
+      
+        <p class="attribution">
+          Coded by
+          <a href="https://github.com/jatinbariya/" target="_blank">@jatin_bariya</a>
+        </p>
+      </section>
+    </main>
+    <script src="./script.js"></script>
+  </body>
+</html>
